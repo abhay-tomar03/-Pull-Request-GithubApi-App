@@ -19,11 +19,12 @@ Steps to use:
 4- Run App
   
   - $ flutter run
+  
+# Screenshot
 
-<!-- 
-# Screenshots 
+![image](https://user-images.githubusercontent.com/75438874/218331650-dd2a7016-a47a-40ae-ba81-a7af0f7f80a4.png)
 
-![image](https://user-images.githubusercontent.com/113206436/218329724-1ff27139-ba49-4486-aeb6-01987389550f.png) -->
+
 
 
 A few resources to get you started if this is your first Flutter project:
