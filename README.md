@@ -20,10 +20,10 @@ Steps to use:
   
   - $ flutter run
 
-
+<!-- 
 # Screenshots 
 
-![image](https://user-images.githubusercontent.com/113206436/218329724-1ff27139-ba49-4486-aeb6-01987389550f.png)
+![image](https://user-images.githubusercontent.com/113206436/218329724-1ff27139-ba49-4486-aeb6-01987389550f.png) -->
 
 
 A few resources to get you started if this is your first Flutter project:
