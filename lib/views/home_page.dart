@@ -8,6 +8,8 @@ import 'package:http/http.dart' as http;
 
 import '../model/model.dart';
 
+import 'package:shimmer/shimmer.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -44,7 +46,25 @@ class _HomePageState extends State<HomePage> {
               future: getPostApi(),
               builder: (context, snapshot) {
                 if (!snapshot.hasData) {
-                  return const Text('Loading');
+                   return SizedBox(
+                          height: 200,
+                          width: double.infinity,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(16),
+                            child: Image.network(
+                              'https://picsum.photos/250?image=9',
+                              fit: BoxFit.cover,
+                              loadingBuilder: (context, child, loadingProgress) =>
+                                  Shimmer.fromColors(
+                                baseColor: Colors.grey[300]!,
+                                highlightColor: Colors.white,
+                                child: Container(
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ),
+                          )
+                    );
                 } else {
                   return ListView.builder(
                       itemCount: postList.length,
