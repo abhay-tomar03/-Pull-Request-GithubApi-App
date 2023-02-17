@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<List<PostModel>> getPostApi() async {
     final resposne = await http.get(Uri.parse(
-        'https://api.github.com/repos/abhay-tomar03/Flutter_App/pulls?state=closed'));
+        'https://api.github.com/repos/abhay-tomar03/-Pull-Request-GithubApi-App/pulls?state=closed'));
     
     var data = jsonDecode(resposne.body.toString());
     if (resposne.statusCode == 200) {
