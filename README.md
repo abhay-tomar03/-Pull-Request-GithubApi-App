@@ -22,7 +22,7 @@ Steps to use:
   
 #Demo
 
-  ![Animation](https://user-images.githubusercontent.com/75438874/219829816-efa02c8e-5f9c-4093-b09c-c80240f4c2f7.gif)
+![Animation1](https://user-images.githubusercontent.com/75438874/219830033-298260b0-8103-4472-a323-04c4ca1f09a3.gif)
 
 # Screenshot
 
