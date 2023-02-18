@@ -32,8 +32,8 @@ class SplashScreenState extends State<SplashScreen> with TickerProviderStateMixi
     return Scaffold(
       body: ListView(
         children: [
-          Lottie.asset(
-            'assets/developer-yoga.json',
+          Lottie.network(
+            'https://assets2.lottiefiles.com/packages/lf20_kkflmtur.json',
             controller: _controller,
             onLoaded: (composition) {
               _controller
