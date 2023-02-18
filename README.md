@@ -20,6 +20,10 @@ Steps to use:
   
   - $ flutter run
   
+#Demo
+
+  ![Animation](https://user-images.githubusercontent.com/75438874/219829816-efa02c8e-5f9c-4093-b09c-c80240f4c2f7.gif)
+
 # Screenshot
 
 ![image](https://user-images.githubusercontent.com/75438874/218331650-dd2a7016-a47a-40ae-ba81-a7af0f7f80a4.png)
